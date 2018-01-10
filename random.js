@@ -35,7 +35,7 @@ $(function () {
             }, 50);
             run = 1;
         } else {
-           heading.html("是这个！");
+           heading.html("是TA！是TA！就是TA！！！");
             $(this).val("继续抽奖");
             clearInterval(timer);
             run = 0;
