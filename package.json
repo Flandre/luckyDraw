@@ -1,0 +1,22 @@
+{
+  "name": "luckydraw",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Flandre/luckyDraw.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Flandre/luckyDraw/issues"
+  },
+  "homepage": "https://github.com/Flandre/luckyDraw#readme",
+  "devDependencies": {
+    "jquery": "^3.2.1"
+  }
+}
