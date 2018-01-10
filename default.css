@@ -18,10 +18,9 @@ body {
     position: absolute;
     top: 50%;
     left: 50%;
-    margin-top: -60px;
+    margin-top: -250px;
     margin-left: -250px;
     width: 500px;
-    height: 120px;
     text-align: center;
 }
 
@@ -32,10 +31,6 @@ body {
     font-size: 30px;
 }
 
-#what{
-    font-size: 30px;
-    font-weight: 700;
-}
 
 #start {
     width: 120px;
@@ -83,7 +78,7 @@ body {
     -webkit-box-shadow: 0 0 22px #333, inset 0 -3px 7px #DDD;
     -moz-box-shadow: 0 0 22px #333, inset 0 -3px 7px #DDD;
     box-shadow: 0 0 22px #333, inset 0 -3px 7px #DDD;
-    +border: 1px solid #666;
++border: 1px solid #666;
 }
 
 #ok {
@@ -95,8 +90,60 @@ body {
     height: 22px;
 }
 
-#weibo {
+#what{
+    width: 284px;
+    height: 284px;
+    background: url("images/bg.png");
+    margin: 20px auto;
+    position: relative;
+}
+
+#what .tens{
+    width: 80px;
+    height: 94px;
     position: absolute;
-    bottom: 15px;
-    right: 15px;
+    left: 62px;
+    top: 95px;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+#what .unit{
+    width: 80px;
+    height: 94px;
+    position: absolute;
+    left: 142px;
+    top: 95px;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+#what .num-0 {
+    background-image: url("images/0.png");
+}
+#what .num-1 {
+    background-image: url("images/1.png");
+}
+#what .num-2 {
+    background-image: url("images/2.png");
+}
+#what .num-3 {
+    background-image: url("images/3.png");
+}
+#what .num-4 {
+    background-image: url("images/4.png");
+}
+#what .num-5 {
+    background-image: url("images/5.png");
+}
+#what .num-6 {
+    background-image: url("images/6.png");
+}
+#what .num-7 {
+    background-image: url("images/7.png");
+}
+#what .num-8 {
+    background-image: url("images/8.png");
+}
+#what .num-9 {
+    background-image: url("images/9.png");
 }

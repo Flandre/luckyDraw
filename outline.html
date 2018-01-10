@@ -9,19 +9,13 @@
 <body>
 
 <div id="wrapper">
-  <h1>
-    下一个中奖的会是谁？
-    <br>
-    <br>
-  </h1>
-  <h2 style="color:#FF9733" id="what"></h2>
+  <h1>中奖的会是谁？</h1>
+  <div id="what" style="display: none;">
+    <div class="tens"></div>
+    <div class="unit"></div>
+  </div>
   <input type="button" value="开始抽奖" id="start" />
 </div>
-
-<textarea rows="9" cols="53" id="list" style="display:none">
-                1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26
-    </textarea>
-
 <script src="lib/jquery.min.js"></script>
 <script src="random.js"></script>
 </body>
